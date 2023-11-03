@@ -1,25 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
-    padding: 0;
-    margin: 0;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    padding:0px;
+    margin:0px;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center;
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
     font-family: 'Josefin Sans', sans-serif;
-}
-
-#gif-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Place the GIF behind other content */
-    background: url("https://media.tenor.com/ipkhzliVXRsAAAAd/tie-fighter-anime.gif") center center;
-    background-size: cover;
 }
 #loading {
     width: 100vw;
